@@ -30,5 +30,12 @@ public class TestngListener implements IAnnotationTransformer, IRetryAnalyzer{
 		}
 		return false;
 	}
+	
+	
+	public void CodeCheckIn() {
+		System.out.println("Bingooo!!");
+	}
+	
+	
 
 }
