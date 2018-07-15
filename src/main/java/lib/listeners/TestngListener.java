@@ -37,5 +37,24 @@ public class TestngListener implements IAnnotationTransformer, IRetryAnalyzer{
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public void VishnuSecondMethod()
+	{
+		System.out.println("Rampam!!");
+	}
+	
+	
 
 }
