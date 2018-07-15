@@ -36,6 +36,9 @@ public class TestngListener implements IAnnotationTransformer, IRetryAnalyzer{
 		System.out.println("Bingooo!!");
 	}
 	
+	public void soorajCheckIn() {
+		
+	}
 	
 
 }
