@@ -40,5 +40,25 @@ public class TestngListener implements IAnnotationTransformer, IRetryAnalyzer{
 		
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public void sooraj2ndMethod() {
+	
+	
+	}
+	
+	
+	
 
 }
