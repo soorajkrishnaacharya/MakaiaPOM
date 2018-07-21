@@ -27,8 +27,8 @@ public class CreateLead extends PreAndPost{
 
 	//invocationCount=2,
 	//groups= {"smoke"},
-	//(  dataProvider= "QA", groups= {/*"common",*/"smoke"})
-	@Test
+	
+	@Test(dataProvider= "QA", groups= {/*"common",*/"smoke"})
 	public void createLead(String companyName, String fName, String lName) {
 
 
