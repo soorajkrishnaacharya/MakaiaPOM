@@ -66,6 +66,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Sooraj.Makaia</finalName>
+		<!-- <finalName>Sooraj.Makaia</finalName> -->
 	</build>
 </project>
