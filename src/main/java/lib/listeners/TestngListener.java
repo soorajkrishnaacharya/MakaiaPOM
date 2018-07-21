@@ -66,6 +66,8 @@ public class TestngListener implements IAnnotationTransformer, IRetryAnalyzer{
 	}
 
 	
-	
-
+	public void VishnuThirdMethod()
+	{
+		System.out.println("Bazoooka!!!");
+	}
 }
