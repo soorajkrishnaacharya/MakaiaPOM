@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="leadsSequencial" verbose="2">
+
+	<!-- <groups> 
+		<run> 
+			<include name="smoke" />
+			<include name="common"></include> 
+			<include name="sanity" /> 
+			<exclude name="sanity" />
+			<include name="smoke"></include>
+		</run> 
+	</groups> -->
+
+	<!-- <listeners>
+		<listener class-name="lib.listeners.TestngListener"></listener>
+	</listeners>  -->
+
+
+	<parameter name="url" value="http://leaftaps.com/opentaps" />
+	<parameter name="uName" value="DemoSalesManager" />
+	<parameter name="passWord" value="crmsfa" />
+
+	<test name="Test">
+		<classes>
+			<!-- <class name="tests.EditLead" /> -->
+			<!-- <class name="tests.MergeLeads" /> -->
+			<class name="tests.CreateLead" /> 
+			<!-- <class name="tests.DeleteLead" /> -->
+			<!-- <class name="tests.DuplicateLead" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- leadsSequencial -->
